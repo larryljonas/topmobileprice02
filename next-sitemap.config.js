@@ -1,5 +1,6 @@
 module.exports = {
-    siteUrl: process.env.SITE_URL || 'https://topmobileprices.com/',
-    generateRobotsTxt: true,
-  };
-  
+  siteUrl: 'https://topmobileprices.com/', // Replace with your site's URL
+  generateRobotsTxt: true, // Optional: Enable robots.txt file generation
+  // Optional: Any additional configuration here
+  sitemapUrl: 'sitemap.xml', // Path to the generated sitemap
+};
