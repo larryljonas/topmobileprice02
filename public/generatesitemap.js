@@ -5,6 +5,7 @@ const fs = require('fs');
 const links = [
   { url: '/', changefreq: 'daily', priority: 0.3 },
   { url: '/posts/infinix-note-30-price', changefreq: 'daily', priority: 0.3 },
+  { url: '/posts/infinix-note-12-price-in-pakistan', changefreq: 'daily', priority: 0.3 },
   // Add more URLs as needed
 ];
 
