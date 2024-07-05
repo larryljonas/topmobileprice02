@@ -8,11 +8,14 @@ export const getGlobalData = () => {
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'All rights reserved.';
+  const description = process.env.BLOG_DESCRIPTION
+    ? decodeURI(process.env.BLOG_DESCRIPTION)
+    : 'TopMobilePrices provides the latest mobile prices and detailed specifications in Pakistan.';
 
   return {
     name,
     blogTitle,
     footerText,
+    description,
   };
 };
-
